@@ -1,0 +1,27 @@
+Name: UTILS
+
+Author: Bradley Hu
+
+Blocks:
+  Comments:
+    Text: Comment:[txt1]
+    Arguments:
+      txt1: 
+        type: string
+        defaultValue: Comment
+  inlineCom:
+    Text: Comment:[txt2] Value:[actv1]
+    blockType: reporter
+    Arguments:
+      txt2:
+        type: string
+        defaultValue: Inine Comment
+      actv1:
+        type: string
+        defaultValue: Actual Value
+    code: return actv1
+  nullreport:
+    Text: null
+    blockType: reporter
+    code: return null
+  bruh: Just strange, does nothing
