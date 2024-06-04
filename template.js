@@ -1,11 +1,11 @@
-class ScratchFetch {
+class ext {
     constructor() {
     }
     
     getInfo() {
         return {
-            "id": "Fetch",
-            "name": "Fetch",
+            "id": "Yourid",
+            "name": "Yourname",
             "blocks": [ /* add later */ ]
         }
     }
@@ -13,4 +13,4 @@ class ScratchFetch {
     /* add methods for blocks */
 }
 
-Scratch.extensions.register(new ScratchFetch())
+Scratch.extensions.register(new ext())
