@@ -1,0 +1,13 @@
+Name: #Extention name
+
+Author: #Your name
+
+Blocks: 
+  #Blocks here
+  Example: #opcode of block
+    Text: Example [example] #text on block(to add arguments, use a pair of [] and include name of argument)
+    blockType: hat #type, can only be 'reporter','boolean' or 'hat'
+    Arguments:
+      example: #argument name
+        type: string #argument type
+        defaultValue: example #default
