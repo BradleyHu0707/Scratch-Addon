@@ -10,9 +10,7 @@ class UTILS {
         }
     }
     inlinecom({txt2,actv1}){return actv1}
-    nullReport(){return null}
-    trueReport(){return true}
-    falseReport(){return false}
+    nullReport(){return ""}
 }
 
 Scratch.extensions.register(new UTILS())
